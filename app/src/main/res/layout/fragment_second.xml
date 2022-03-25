@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".SecondFragment"
+    tools:ignore="HardcodedText" >
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SCREEN 2"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/gotoscreen3_btn"
+        android:background="@drawable/edit_text_border"
+        android:hint="Input Nama"
+        android:inputType="text"
+        android:paddingStart="20dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gotoscreen3_btn"
+        android:text="Go To Screen 3"
+        android:layout_centerInParent="true"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/cardview_dark_background"/>
+
+
+</RelativeLayout>
