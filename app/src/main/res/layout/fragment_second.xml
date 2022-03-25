@@ -26,7 +26,9 @@
         android:hint="Input Nama"
         android:inputType="text"
         android:paddingStart="20dp"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:autofillHints=""
+        tools:ignore="RtlSymmetry" />
 
     <Button
         android:layout_width="wrap_content"

@@ -30,8 +30,8 @@ class ThirdFragment : Fragment() {
 
         if  (arguments?.containsKey("PERSON") == true) {
             val person = arguments?.getSerializable("PERSON") as Person
-            val name = person?.name
-            val age = person?.age
+            val name = person.name
+            val age = person.age
             val address = person.address
             val job = person.job
             val ganjilGenap = if (age % 2 == 0) {
